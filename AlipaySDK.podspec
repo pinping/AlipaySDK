@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.resource = 'AlipaySDK.bundle'
   s.vendored_frameworks = 'AlipaySDK.framework'
   s.public_header_files = 'AlipaySDK.framework/Headers/**/*.h'
-  s.frameworks = 'CoreTelephony', 'SystemConfiguration'
+  s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
   s.requires_arc = true
   s.dependency 'OpenSSL-Universal', '~> 1.0.1.j-2'
 end
