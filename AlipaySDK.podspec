@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/MapleJ/AlipaySDK.git", :tag => "2.2.3" }
 
   s.resource = 'AlipaySDK.bundle'
+  s.source_files   = "OpenSDK/**/*.h"
   s.vendored_frameworks = 'AlipaySDK.framework'
   s.public_header_files = 'AlipaySDK.framework/Headers/**/*.h'
   s.frameworks = 'CoreTelephony', 'SystemConfiguration', 'CoreMotion'
